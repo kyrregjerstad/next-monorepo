@@ -12,6 +12,11 @@
     "composite": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "strict": true
+    "strict": true,
+    "rootDir": ".",
+    "paths": {
+      "@web/*": ["./next/src/*"],
+      "@api/*": ["./api/src/*"]
+    }
   }
 }

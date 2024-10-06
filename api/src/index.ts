@@ -1,4 +1,4 @@
-import { test } from '@/nested/test';
+import { test } from '@api/nested/test';
 
 function api() {
   return {
