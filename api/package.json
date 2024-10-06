@@ -1,0 +1,19 @@
+{
+  "name": "@test/api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc && tsc-alias"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20",
+    "eslint": "^8",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5"
+  }
+}
