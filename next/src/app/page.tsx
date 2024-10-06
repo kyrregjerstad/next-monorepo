@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { api } from '@test/api';
+import { api } from '@api';
 
 export default function Home() {
   const test = api();

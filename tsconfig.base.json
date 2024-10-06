@@ -12,6 +12,12 @@
     "composite": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./next/src/*"],
+      "@api": ["./api/src"],
+      "@api/*": ["./api/src/*"]
+    }
   }
 }

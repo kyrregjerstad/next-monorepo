@@ -2,9 +2,13 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
+    "declaration": true,
+    "noEmit": false,
+    "rootDir": "src",
+    "outDir": "./dist",
+    "emitDeclarationOnly": false,
     "paths": {
-      "@/*": ["./src/*"]
+      "@api/*": ["./api/src/*"]
     }
   },
   "include": ["src/**/*.ts"],
